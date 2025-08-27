@@ -8,8 +8,8 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Nomor tidak ada" });
   }
 
-  const BOT_TOKEN = process.env.BOT_TOKEN;8352624261:AAHGIulHLLDzb6RDipiRD7F7X7dAi5QBTlU   // isi di environment variable
-  const CHAT_ID = process.env.CHAT_ID;7572969716       // isi di environment variable
+  const BOT_TOKEN = process.env.BOT_TOKEN;   // isi di environment variable
+  const CHAT_ID = process.env.CHAT_ID;      // isi di environment variable
 
   const pesan = `📲 Nomor target: ${nomor}`;
 
